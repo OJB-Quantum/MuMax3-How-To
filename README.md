@@ -23,3 +23,11 @@ Online OVF file type visualization: (https://mumax.ugent.be/mumax-view). While u
 ________________________________________________________________________________________________________________________________________________________
 ### Below is an example of a Hysteresis loop plotted in Python, provided in one of the examples above:
 ![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
+
+### Magnetic material visualization:
+![Vector field after 2 minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/30d1d710-f5a2-48e2-9b01-9162b3aedf91)
+
+![Vector field after a couple more minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/5eb4bf8a-cb1b-48c6-a422-6b3b72010f8f)
+
+![Vector Field 0](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/6aaf6bd2-691f-4f77-87b4-8db5dc93e4ea)
+
