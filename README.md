@@ -5,6 +5,9 @@
 Installation, scripting, & data generation demo in MuMax3. Formed & written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 ______________________________________________________________________________________________________________________________________________________
 Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax/3) & (https://mumax.github.io/examples.html)
+
+(Examples computed in this repository were performed on an NVIDIA (RTX4070 Ti Super) GPU, connected externally to a Microsoft Surface Pro 8).
+
 ||
 |-----------|
 | [How to Install and Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
