@@ -10,10 +10,12 @@ Uses code heavily modified for clarity from: https://github.com/mumax/3
 ______________________________________________________________________________________________________________________________________________________
 ## If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 
-'cd <directory_to_your_file>'
+You can install Qiskit Metal via the pip tool (a python package manager).
+```bash
+cd <directory_to_your_file>
 
-'mumax3 -i <your_mumax3_TXT_file_name>'
-
+mumax3 -i <your_mumax3_TXT_file_name>
+```
 
 Note: MuMax3 scripts can be written as TXT file types. The above script will load and automatically run the script into a browser.
 
