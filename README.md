@@ -1,6 +1,6 @@
 # MuMax3-How-To
 
-[![License](https://img.shields.io/badge/Creative_Commons-License-green)](https://choosealicense.com/licenses/gpl-3.0/)
+[![License](https://img.shields.io/badge/General_Whatever-License-green)](https://choosealicense.com/licenses/gpl-3.0/)
 
 Installation, scripting, & data generation demo in MuMax3. Formed & written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 ______________________________________________________________________________________________________________________________________________________
