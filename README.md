@@ -29,5 +29,3 @@ ________________________________________________________________________________
 
 ![Vector field after a couple more minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/5eb4bf8a-cb1b-48c6-a422-6b3b72010f8f)
 
-![Vector Field 0](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/6aaf6bd2-691f-4f77-87b4-8db5dc93e4ea)
-
