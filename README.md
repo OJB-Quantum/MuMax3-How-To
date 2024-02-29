@@ -10,7 +10,7 @@ Uses code heavily modified for clarity from: https://github.com/mumax/3
 ______________________________________________________________________________________________________________________________________________________
 ## If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 ```bash
-cd <directory_to_your_file>
+cd <directory_to_your_MuMax3_file>
 ```
 ```bash
 mumax3 -i <your_MuMax3_TXT_file_name>
