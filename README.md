@@ -8,7 +8,8 @@ Uses code heavily modified for clarity from: https://github.com/mumax/3
 | [Onri's MuMax3 Hysteresis Example Configuration](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
 ______________________________________________________________________________________________________________________________________________________
-If installed already, start the GUI by going to step 5 below or type the following 2 lines into a non-admin command prompt or non-admin PowerShell:
+If installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
+
 cd <directory_to_your_file>
 mumax3 -i <your_mumax3_TXT_file_name>
 
