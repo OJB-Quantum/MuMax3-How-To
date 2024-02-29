@@ -13,7 +13,7 @@ ________________________________________________________________________________
 cd <directory_to_your_file>
 ```
 ```bash
-mumax3 -i <your_mumax3_TXT_file_name>
+mumax3 -i <your_MuMax3_TXT_file_name>
 ```
 
 Note: MuMax3 scripts can be written as TXT file types. The above script will load and automatically run the script into a browser.
