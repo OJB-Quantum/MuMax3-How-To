@@ -1,5 +1,5 @@
 # MuMax3-How-To
-Installing, scripting, and data generation demo in MuMax3. Formed &amp; written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
+Installation, scripting, & data generation demo in MuMax3. Formed & written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 ______________________________________________________________________________________________________________________________________________________
 Uses code heavily modified for clarity from: https://github.com/mumax/3
 ||
