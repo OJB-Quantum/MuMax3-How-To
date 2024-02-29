@@ -11,7 +11,9 @@ ________________________________________________________________________________
 ## If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 ```bash
 cd <directory_to_your_file>
-mumax3 -i <your_mumax3_TXT_file_name>
+```
+```bash
+cd <directory_to_your_file>
 ```
 
 Note: MuMax3 scripts can be written as TXT file types. The above script will load and automatically run the script into a browser.
