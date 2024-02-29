@@ -4,5 +4,5 @@ ________________________________________________________________________________
 Uses code modified from: https://github.com/mumax/3
 ||
 |-----------|
-| [Onri's MuMax3 Hysteresis Example Configuration](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [How to Install and Run MuMax3 by Onri Jay Benally](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
+| [Onri's MuMax3 Hysteresis Example Configuration](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
