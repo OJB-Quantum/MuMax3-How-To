@@ -21,5 +21,5 @@ Note: MuMax3 scripts can be written as TXT file types. The above script will loa
 
 Online OVF file type visualization: (https://mumax.ugent.be/mumax-view). While using the viewer, you can load multiple OVF files to play an animation of the magnetization frame capture.
 ________________________________________________________________________________________________________________________________________________________
-Below is an example of a Hysteresis loop plotted in Python, provided in one of the examples above:
+### Below is an example of a Hysteresis loop plotted in Python, provided in one of the examples above:
 ![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
