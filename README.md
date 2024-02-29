@@ -8,7 +8,7 @@ Uses code heavily modified for clarity from: https://github.com/mumax/3
 | [Video Example of Onri's MuMax3 Hysteresis Plots in Python](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
 ______________________________________________________________________________________________________________________________________________________
-If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
+## If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 
 'cd <directory_to_your_file>'
 
