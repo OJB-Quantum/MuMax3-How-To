@@ -1,0 +1,62 @@
+﻿// MuMax3 script example
+// Magnetic geometry of 128 nm x 32 nm x 30 nm.
+// Unit cell size of 4 nm x 4 nm x 30 nm.
+
+
+SetGridsize(128, 32, 30)
+SetCellsize(4e-9, 4e-9, 30e-9)
+
+
+Msat  = 800e3 // Saturation magnetisation (A/m).
+Aex   = 13e-12 // Exchange energy constant (J/m).
+
+
+// Gilbert damping can be set if needed. Example: alpha = 0.02
+// Uniaxial anisotropy constant (J/m**3) can be set if needed. Example: Ku1 = 7.0e6
+// Initial magnetization direction can also be randomized if you want. Example: m = randomMag().
+// Initial magnetization direction in (x, y, z), also known as m0 can be set if preferred. Example: m = uniform(1, 0, 0)
+// Interestingly, FreeLayerThickness can be set if needed. Check MuMax3 API reference.
+// Anisotropy direction info can be added here if simulating a hard magnet. Example in x-direction: anisU = vector(1, 0, 0)
+// Note that the gyromagnetic ratio is not coded here since it is a value of 2.211e5 m/A/s by default in MuMax3.
+
+
+m = randomMag()
+relax()         // high-energy states best minimized by relax()
+
+
+
+
+Bmax  := 100.0e-3
+Bstep :=  1.0e-3
+MinimizerStop = 1e-6
+TableAdd(B_ext)
+
+
+// You can now save the output as an OVF file format for post processing of vector fields. The website (https://mumax.ugent.be/mumax-view) accepts OVF1_TEXT formats for visualization in the browser.
+
+
+for B:=0.0; B<=Bmax; B+=Bstep{
+    B_ext = vector(B, 0, 0)
+    minimize()   // small changes best minimized by minimize()
+    tablesave()
+    OutputFormat = OVF1_TEXT
+    saveas(B_ext, "ovf1_text1")
+}
+
+
+for B:=Bmax; B>=-Bmax; B-=Bstep{
+    B_ext = vector(B, 0, 0)
+    minimize()   // small changes best minimized by minimize()
+    tablesave()
+    OutputFormat = OVF1_TEXT
+    saveas(B_ext, "ovf1_text1")
+}
+
+
+for B:=-Bmax; B<=Bmax; B+=Bstep{
+    B_ext = vector(B, 0, 0)
+    minimize()   // small changes best minimized by minimize()
+    tablesave()
+    OutputFormat = OVF1_TEXT
+    saveas(B_ext, "ovf1_text1")
+}
