@@ -3,3 +3,4 @@ Installing, Scripting, and Data Generation Demo in MuMax3. Formed &amp; written 
 ______________________________________________________________________________________________________________________________________________________
 Uses code modified from: https://github.com/mumax/3
 
+https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ
