@@ -8,6 +8,10 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 
 (Examples computed in this repository were performed on an NVIDIA (RTX4070 Ti Super) GPU, connected externally to a Microsoft Surface Pro 8).
 
+![Installing and Running MuMax3 by Onri Jay Benally-1](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/43db785d-5bc1-4a0b-ab29-8aa549648da1)
+
+![Installing and Running MuMax3 by Onri Jay Benally-2](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/37e1f435-6d88-4b76-a9db-4ddfb390c11c)
+
 ||
 |-----------|
 | [How to Install and Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
