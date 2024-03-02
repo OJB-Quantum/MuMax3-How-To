@@ -16,6 +16,9 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 | [Video Example of Onri's MuMax3 Hysteresis Plots in Python](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
 | [Google Colab/ Jupyter Notebook Example of Data Imported From MuMax3 - Hysteresis Loop by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb) |
+| [Video Animation of Magnetic Orders](https://youtu.be/X4hEEzAGyhM?si=5Lpkqnvpjs6UKjUY) |
+| [Explanation of Hysteresis Curves & Coercivity](https://youtu.be/rGgKK3-wep4?si=bQ1aQ5gz3IZlJ2Qt) |
+| [Micromagnetism Overview](http://micromagnetics.org/micromagnetism/) |
 ______________________________________________________________________________________________________________________________________________________
 ## If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 ```bash
