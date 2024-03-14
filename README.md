@@ -41,6 +41,7 @@ ________________________________________________________________________________
 ### Magnetic geometry (300 nm x 100 nm x 3 nm) visualization in 3D using [MuMax View](https://mumax.ugent.be/mumax-view) in the browser:
 ![ezgif-2-ce10ab426e](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/40d7ff7a-e8bb-4438-9cd8-eeff2aa36a89)
 
+### More examples:
 ![Screenshot 2024-03-13 124721](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/4f6f514b-a03d-4e99-861a-53e36d6196f9)
 ![Screenshot 2024-03-13 125101](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/a583f8b5-8fa5-4ee7-8e5c-7163c567cb28)
 
