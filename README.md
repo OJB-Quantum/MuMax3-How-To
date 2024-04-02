@@ -5,7 +5,7 @@
 Installation, scripting, & data generation demo of computational micro and nanomagnetism in MuMax3. Formed & written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
 ______________________________________________________________________________________________________________________________________________________
 ![image](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/4decf8c2-2a28-45b6-8d8d-220401dbfc4f)
-
+______________________________________________________________________________________________________________________________________________________
 Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax/3) & (https://mumax.github.io/examples.html)
 
 (Examples computed in this repository were performed on an NVIDIA (RTX4070 Ti Super) GPU, connected externally to a Microsoft Surface Pro 8).
