@@ -1,0 +1,64 @@
+(This is the TXT version of the installation steps and example documentation of MuMax3).
+___________________________________________________________________________
+If installed already, start the GUI by going to step 5 below or type the following 2 lines into a non-admin command prompt or non-admin PowerShell:
+cd <directory_to_your_file>
+mumax3 -i <your_MuMax3_TXT_file_name>
+
+Note: MuMax3 scripts can be written as TXT file types. The above script will load & automatically run the script into a browser.
+
+To run a script for obtaining a hysteresis loop or curve, see Onri's GitHub example for reference: https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb
+___________________________________________________________________________
+To run mumax3.10 you need:
+• An NVIDIA GPU with at least a compute capability 3.0 (https://developer.nvidia.com/cuda-gpus).
+• An up-to-date NVIDIA driver.
+___________________________________________________________________________
+• Download & install Miniconda & JupyterLab. Jupyter Notebook can be installed optionally. (https://docs.anaconda.com/miniconda & https://jupyter.org/install).
+Now, run the following script in an Anaconda Prompt:
+• conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia (to install pytorch GPU, other versions available here: https://pytorch.org/get-started/locally)
+• Then run the following script if SciPy isn't installed: conda install scipy
+• Add Cuda to Path variables in system. You can find the steps for Path variables editing on Step 4 below.
+• Restart computer.
+___________________________________________________________________________
+1. Find out the NVIDIA driver version:
+Right-click on your desktop & open the Nvidia control panel. You should now see the driver version number.
+
+2. Download mumax3.10:
+Download the mumax3.10 executable for your driver from https://mumax.github.io/download.
+
+3. Unzip the downloaded file:
+Unzip the downloaded file in any directory you want. For the sake of the instructions here, we will assume you unzipped the file in C:\Users\JohnDoe\mumax3.10. The full path of the executable is now C:\Users\JohnDoe\mumax3.10\mumax3. Note that the directory also contains dll files. It is important that these Cuda library files stay in the same directory as the mumax3 executable.
+
+4. Update the Path environment variable:
+Add the directory to the Path environment variable by going to environment variables on your machine. Type "environment variables" on your Windows search bar >> once a System Properties window pops up, go to the Advanced tab >> click on Environment Variables button on the bottom right >> once the Environment Variables window pops up, go to the table on the bottom that says System Variables & click on Path >> press the Edit button on the bottom >> once the Edit Environment Variable window pops up, press the New button on the upper right >> paste the directory of your MuMax3 executable, then click OK on all the windows to close them. (Note that you have to add the directory of the executable, not the path of the executable itself).
+
+5. Running a MuMax3 script:
+First open a new terminal or Powershell window >> navigate to the directory of the script: cd C:\Users\JohnDoe\Documents >> You can then run the script using the following command:
+mumax3 <Filename_of_MuMax3_Script.txt>
+
+In my case, open a fresh PowerShell window >> I use this:
+cd C:\Users\ojbsn\OneDrive\Desktop___________\Downloads\Downloads\MuMax3
+mumax3 -i <Filename_of_Custom_MuMax3_Script.txt>
+
+Online OVF file type visualization: https://mumax.ugent.be/mumax-view
+While using the viewer, you can load multiple OVF files to play an animation of the magnetization frame capture.
+__________________________________________________________________________
+Optional: install gnuplot:
+Download & install gnuplot. During the installation, make sure that you check the option to add the executable to the Path environment variable. If you forgot to check this option, you can do this manually in the same way as described in step 4. (pip install py-gnuplot)
+(http://www.gnuplot.info/index.html) (https://youtu.be/Xx0NjUd1LQQ?si=1Hkg8WPVpVOk9vDz)
+__________________________________________________________________________
+Additional resources:
+
+Official MuMax3 tutorial is located here: https://mumax.ugent.be/mumax3-workshop/#:~:text=Drs.%20Pieter%20Gypens-,Workshop%20material,-Here%20you%20can
+
+MuMax3 overview paper:
+https://ar5iv.labs.arxiv.org/html/1102.3069 
+
+Simulating modern magnetic materials paper (includes section on spin-orbit torque materials): https://pubs.aip.org/aip/jap/article/134/17/171101/2919250/Tutorial-Simulating-modern-magnetic-material 
+
+Magnetic multilayer for magnetic memories paper (involves MuMax3 simulation):
+https://hal.science/tel-01569111/document
+
+MuMax3 frequently asked questions:
+https://mumax.ugent.be/mumax3-workshop/questions.html
+
+https://groups.google.com/g/mumax2/c/VGWY8h9wYiQ?pli=1
