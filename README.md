@@ -8,7 +8,7 @@ ________________________________________________________________________________
 ______________________________________________________________________________________________________________________________________________________
 Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax/3) & (https://mumax.github.io/examples.html)
 
-(Examples computed in this repository were performed on an NVIDIA (RTX4070 Ti Super) GPU, connected externally to a Microsoft Surface Pro 8).
+(Examples computed in this repository were performed on an NVIDIA (RTX 4070 Ti Super) GPU, connected externally to a Microsoft Surface Pro 8).
 
 ||
 |-----------|
