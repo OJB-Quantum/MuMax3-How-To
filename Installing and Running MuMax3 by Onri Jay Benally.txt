@@ -31,7 +31,8 @@ conda activate <custom MuMax3 environment name>
 conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia (to install PyTorch GPU & other versions check here: https://pytorch.org/get-started/locally).
 • Then, run the following script if SciPy isn't installed: 
 conda install scipy
-• Add Cuda to Path variables in system. You can find the steps for Path variables editing under Step 4 below.
+• Install CUDA from Nvidia: https://developer.nvidia.com/cuda-downloads 
+• Add CUDA to Path variables in system. You can find the steps for Path variables editing under Step 4 below.
 • Restart computer.
 ___________________________________________________________________________
 
