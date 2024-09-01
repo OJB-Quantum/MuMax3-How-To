@@ -1,12 +1,13 @@
 (This is the TXT version of the installation steps and example documentation of MuMax3).
 ___________________________________________________________________________
+Quick references:
 If installed already, start the GUI by going to step 5 below or type the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 cd <directory_to_your_file>
 mumax3 -i <your_MuMax3_TXT_file_name>
 
 Note: MuMax3 scripts can be written as TXT file types. The above script will load & automatically run the script into a browser.
 
-To run a script for obtaining a hysteresis loop or curve, see Onri's GitHub example for reference: https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb
+To run a script for obtaining a hysteresis loop, see Onri's Jupyter Notebook example in GitHub: https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb
 ___________________________________________________________________________
 To run mumax3.10 you need:
 • An Nvidia GPU with at least a compute capability of 3.0 (https://developer.nvidia.com/cuda-gpus).
@@ -19,13 +20,21 @@ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 • Now, pip is ready for use!
 ___________________________________________________________________________
 Some prerequisites for installing mumax3.10:
-• Download & install Miniconda. JupyterLab or Jupyter Notebook can be installed optionally. (https://docs.anaconda.com/miniconda & https://jupyter.org/install).
-• Now, run the following script in Anaconda Prompt (comes with Miniconda installation): 
-conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia (to install pytorch GPU & other versions check here: https://pytorch.org/get-started/locally).
-• Then, run the following script if SciPy isn't installed: conda install scipy
-• Add Cuda to Path variables in system. You can find the steps for Path variables editing on Step 4 below.
+• Download & install Miniconda. JupyterLab or Jupyter Notebook can be installed optionally for post-processing data results (https://docs.anaconda.com/miniconda & https://jupyter.org/install). Google Colab in the browser is another alternative for post-processing the data (https://colab.research.google.com).
+
+Run the following scripts in Anaconda Prompt [Admin] (comes with Miniconda installation): 
+• As an option, a custom MuMax3 environment can be created with the following script: 
+conda create --name <custom MuMax3 environment name>
+• If a custom MuMax3 environment name has been created, activate the environment:
+conda activate <custom MuMax3 environment name>
+• Install PyTorch compatible with CUDA with the following script: 
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia (to install PyTorch GPU & other versions check here: https://pytorch.org/get-started/locally).
+• Then, run the following script if SciPy isn't installed: 
+conda install scipy
+• Add Cuda to Path variables in system. You can find the steps for Path variables editing under Step 4 below.
 • Restart computer.
 ___________________________________________________________________________
+
 1. Find out the Nvidia driver version:
 Right-click on your desktop [in Windows] & open the Nvidia control panel. You should now see the driver version number. (The MuMax3 website will ask for which driver version you have before downloading).
 
@@ -54,6 +63,7 @@ Optional: install gnuplot:
 Download & install gnuplot. During the installation, make sure that you check the option to add the executable to the Path environment variable. If you forgot to check this option, you can do this manually in the same way as described in step 4. (pip install py-gnuplot)
 (http://www.gnuplot.info/index.html) (https://youtu.be/Xx0NjUd1LQQ?si=1Hkg8WPVpVOk9vDz)
 __________________________________________________________________________
+
 Additional resources:
 
 Official MuMax3 tutorial is located here: https://mumax.ugent.be/mumax3-workshop/#:~:text=Drs.%20Pieter%20Gypens-,Workshop%20material,-Here%20you%20can
