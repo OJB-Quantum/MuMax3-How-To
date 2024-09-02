@@ -3,9 +3,11 @@ ___________________________________________________________________________
 Quick references:
 If installed already, start the GUI by going to step 5 below or type the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 cd <directory_to_your_file>
-mumax3 -i <your_MuMax3_TXT_file_name>
+mumax3 -i <your_MuMax3_TXT_file_name.txt>
 
 Note: MuMax3 scripts can be written as TXT file types. The above script will load & automatically run the script into a browser.
+
+Example MuMax3 scripts can be copied from (https://mumax.github.io/examples.html) into a TXT file on your local machine, saved as a custom filename.
 
 To run a script for obtaining a hysteresis loop, see Onri's Jupyter Notebook example in GitHub: https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb
 ___________________________________________________________________________
@@ -32,9 +34,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 • Then, run the following script if SciPy isn't installed: 
 conda install scipy
 • Install CUDA from Nvidia: https://developer.nvidia.com/cuda-downloads 
-• Add CUDA to Path variables in system. You can find the steps for Path variables editing under Step 4 below.
+• Add CUDA to Path variables in system environment variables, unless the CUDA installation process added the variables automatically. Steps for editing Path variables are under Step 4 below.
 • Restart computer.
 ___________________________________________________________________________
+
+Installing MuMax3 itself:
 
 1. Find out the Nvidia driver version:
 Right-click on your desktop [in Windows] & open the Nvidia control panel. You should now see the driver version number. (The MuMax3 website will ask for which driver version you have before downloading).
@@ -44,7 +48,6 @@ Download the mumax3.10 executable for your driver from https://mumax.github.io/d
 
 3. Unzip the downloaded file:
 Unzip the downloaded file in any directory you want. For the sake of the instructions here, we will assume you unzipped the file in C:\Users\JohnDoe\mumax3.10. The full path of the executable is now C:\Users\JohnDoe\mumax3.10\mumax3. Note that the directory also contains dll files. It is important that these Cuda library files stay in the same directory as the mumax3 executable.
-
 
 4. Update the Path environment variable:
 Add the directory to the Path environment variable by going to environment variables on your machine. Type "environment variables" on your Windows search bar >> once a System Properties window pops up, go to the Advanced tab >> click on Environment Variables button on the bottom right >> once the Environment Variables window pops up, go to the table on the bottom that says System Variables & click on Path >> press the Edit button on the bottom >> once the Edit Environment Variable window pops up, press the New button on the upper right >> paste the directory of your MuMax3 executable, then click OK on all the windows to close them. (Note that you have to add the directory of the executable, not the path of the executable itself).
@@ -56,6 +59,8 @@ mumax3 <Filename_of_MuMax3_Script.txt>
 In my case, open a fresh PowerShell window >> I use this:
 cd C:\Users\ojbsn\OneDrive\Desktop___________\Downloads\Downloads\MuMax3
 mumax3 -i <Filename_of_Custom_MuMax3_Script.txt>
+
+Done! Once a simulation is finished running on the GPU, proceed to file location or directory of the results to copy the data into an Excel file, followed by naming the new Excel file for importing to data post-processing tool of choice (Colab, JupyterLab, Jupyter Notebook, etc.). 
 
 Online OVF file type visualization: https://mumax.ugent.be/mumax-view
 While using the viewer, you can load multiple OVF files to play an animation of the magnetization frame capture.
