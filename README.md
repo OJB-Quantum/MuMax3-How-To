@@ -14,7 +14,8 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 
 ||
 |-----------|
-| [How to Install and Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
+| [How to Install & Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
+| [Video Tutorial on How to Install MuMax3 Step-by-Step](https://youtu.be/ziGTDgMdPJw) |
 | [Video Example of Onri's MuMax3 Hysteresis Plots in Python](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
 | [Google Colab/ Jupyter Notebook Example of Data Imported From MuMax3 - Hysteresis Loop by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb) |
