@@ -35,6 +35,23 @@ Note: MuMax3 scripts can be written as TXT file types. The above script will loa
 
 Online OVF file type visualization: (https://mumax.ugent.be/mumax-view). While using the viewer, you can load multiple OVF files to play an animation of the magnetization frame capture.
 ________________________________________________________________________________________________________________________________________________________
+| Related Animated Videos for Your Reference: |
+|-|
+| [Tunnel Effect](https://youtu.be/K64Tv2mK5h4?si=9P3WnPEtGvCPyy1s) |
+| [Quantum Difference Between Metals & Insulators](https://youtu.be/LNsSS6Id6bM?si=rk0qwzyc2x036CXy) |
+| [Magnetic Orders](https://youtu.be/X4hEEzAGyhM?si=9Lt-4U0Z2nVeSGp7) |
+| [Frustrated Magnets](https://youtu.be/HTzFYQCOCx0?si=UB9GK19gj967gb5U) |
+| [Bose-Einstein Condensation](https://youtu.be/shdLjIkRaS8?si=uKuxmS7PEBuRptUd) |
+| [Nuclear Magnetic Resonance (NMR)](https://youtu.be/4p2BH5DxUiM?si=wW2u7YFqoVFIfMSJ) |
+| [Transmission Electron Microscopy](https://youtu.be/fQJYuTpK8Fs?si=aTpBlV4WxlvRcKhf) |
+| [Scanning Tunneling Microscopy](https://youtu.be/HE2yE8SvHmA?si=CzMbPtEAd0B_mjR4) |
+| [Scanning Electron Microscopy](https://youtu.be/uQ1gCIkCbIQ?si=2sQTR0ysf4g0Db6i) |
+| [Atomic Force Microscopy](https://youtu.be/8gCf1sEn0UU?si=qyQy7vogkqV6WotF) |
+
+![image](https://github.com/user-attachments/assets/9f594b41-d9a4-485e-a60b-5aed81b28257)
+![image](https://github.com/user-attachments/assets/590586b3-3b3d-45dc-8a68-e5fd83b2119e)
+
+________________________________________________________________________________________________________________________________________________________
 ### Below is an example of a Hysteresis loop plotted in Python, provided in one of the examples above:
 ![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
 
