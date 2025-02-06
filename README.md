@@ -12,13 +12,17 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 
 ### Examples computed in this repository were performed on an Nvidia (RTX 4070 Ti Super) GPU, connected externally (via a Thunderbolt 4 to PCIe x16 adapter) to a Microsoft Surface Pro 8, later upgraded to a Surface Pro 10. If you are curious about this kind of GPU-accelerated computing setup, then it is best to make sure your Windows machine is Thunderbolt 4 compatible or greater.
 
-||
+| Some Google Colab Notebooks |  |
+| ----------- | ----------------- |
+| Run MuMax3 on the Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JeroenMulkers/mumax3-tutorial/blob/master/mumax3.ipynb)
+| Example of Data Imported From MuMax3 - Hysteresis Loop by Onri | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb)
+
+| |
 |-----------|
 | [How to Install & Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
 | [Video Tutorial on How to Install MuMax3 Step-by-Step](https://youtu.be/ziGTDgMdPJw) |
 | [Video Example of Onri's MuMax3 Hysteresis Plots in Python](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
-| [Google Colab/ Jupyter Notebook Example of Data Imported From MuMax3 - Hysteresis Loop by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb) |
 | [Video Animation of Magnetic Orders](https://youtu.be/X4hEEzAGyhM?si=5Lpkqnvpjs6UKjUY) |
 | [Explanation of Hysteresis Curves & Coercivity](https://youtu.be/rGgKK3-wep4?si=bQ1aQ5gz3IZlJ2Qt) |
 | [Micromagnetism Overview](http://micromagnetics.org/micromagnetism/) |
