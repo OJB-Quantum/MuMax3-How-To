@@ -55,6 +55,8 @@ ________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/9f594b41-d9a4-485e-a60b-5aed81b28257)
 ![image](https://github.com/user-attachments/assets/590586b3-3b3d-45dc-8a68-e5fd83b2119e)
 
+![mathpix 2025-02-03 12-35-21](https://github.com/user-attachments/assets/741b83b0-224e-4344-ad08-31c2ebae8951)
+
 ________________________________________________________________________________________________________________________________________________________
 ### Below is an example of a Hysteresis loop plotted in Python from the MuMax3 computation, provided by one of my examples above:
 ![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
