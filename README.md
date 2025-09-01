@@ -3,9 +3,13 @@
 [![License](https://img.shields.io/badge/GNU-General_Public_License_v3.0-green)](https://choosealicense.com/licenses/gpl-3.0/)
 
 Installation, scripting, & data generation demo of computational micro and nanomagnetism in MuMax3. Formed & written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
-______________________________________________________________________________________________________________________________________________________
+
+---
+
 ![image](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/4decf8c2-2a28-45b6-8d8d-220401dbfc4f)
-______________________________________________________________________________________________________________________________________________________
+
+---
+
 Main MuMax3 website: (https://mumax.github.io/index.html)
 
 Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax/3) & (https://mumax.github.io/examples.html)
@@ -26,7 +30,9 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 | [Video Animation of Magnetic Orders](https://youtu.be/X4hEEzAGyhM?si=5Lpkqnvpjs6UKjUY) |
 | [Explanation of Hysteresis Curves & Coercivity](https://youtu.be/rGgKK3-wep4?si=bQ1aQ5gz3IZlJ2Qt) |
 | [Micromagnetism Overview](http://micromagnetics.org/micromagnetism/) |
-______________________________________________________________________________________________________________________________________________________
+
+---
+
 ## If MuMax3 is installed already, start the GUI by typing the following 2 lines into a non-admin command prompt or non-admin PowerShell:
 ```bash
 cd <directory_to_your_MuMax3_file>
@@ -38,7 +44,49 @@ mumax3 -i <your_MuMax3_TXT_file_name.txt>
 Note: MuMax3 scripts can be written as TXT file types. The above script will load and automatically run the script into a browser.
 
 Online OVF file type visualization: (https://mumax.ugent.be/mumax-view). While using the viewer, you can load multiple OVF files to play an animation of the magnetization frame capture.
-________________________________________________________________________________________________________________________________________________________
+
+---
+
+### Magnetic Conversion Table
+
+| Quantity                         | Symbol                    | Conversion                                                                                            |
+|----------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------|
+| Field                            | $H$                       | $\dfrac{\mathrm{Oe}}{\mathrm{A}\cdot\mathrm{m}^{-1}}=\dfrac{10^{3}}{4\pi}=79.6$                                                                                                                                            |
+| Flux                             | $\Phi$                    | $\dfrac{\mathrm{Mx}}{\mathrm{Wb}}=\dfrac{\mathrm{Mx}}{\mathrm{V}\cdot\mathrm{s}}=10^{-8}$                                                                                                                                  |
+| Flux density                     | $B$                       | $\dfrac{\mathrm{G}}{\mathrm{T}}=\dfrac{\mathrm{G}}{\mathrm{Wb}\cdot\mathrm{m}^{-2}}=10^{-4}$                                                                                                                               |
+| Magnetic moment                  | $m$                       | $\dfrac{\mathrm{emu}}{\mathrm{A}\cdot\mathrm{m}^{2}}=\dfrac{\mathrm{erg}\cdot\mathrm{Oe}^{-1}}{\mathrm{A}\cdot\mathrm{m}^{2}}=\dfrac{10\,\mathrm{A}\cdot\mathrm{cm}^{2}}{\mathrm{A}\cdot\mathrm{m}^{2}}=\dfrac{\mathrm{emu}}{\mathrm{J}\cdot\mathrm{T}^{-1}}=10^{-3}$ |
+| Magnetization per unit volume    | $M$                       | $\dfrac{\mathrm{emu}\cdot\mathrm{cm}^{-3}}{\mathrm{A}\cdot\mathrm{m}^{-1}}=\dfrac{\left(\mathrm{erg}\cdot\mathrm{Oe}^{-1}\right)\cdot\mathrm{cm}^{-3}}{\mathrm{A}\cdot\mathrm{m}^{-1}}=10^{3}$                                                                   |
+| Magnetization per unit mass      | $\sigma$                  | $\dfrac{\mathrm{emu}\cdot\mathrm{g}^{-1}}{\left(\mathrm{A}\cdot\mathrm{m}^{2}\right)\cdot\mathrm{kg}^{-1}}=\dfrac{\left(\mathrm{erg}\cdot\mathrm{Oe}^{-1}\right)\cdot\mathrm{g}^{-1}}{\left(\mathrm{A}\cdot\mathrm{m}^{2}\right)\cdot\mathrm{kg}^{-1}}=1$          |
+| Magnetic polarization            | $J$                       | $\dfrac{\mathrm{emu}\cdot\mathrm{cm}^{-3}}{\mathrm{T}}=\dfrac{\left(\mathrm{erg}\cdot\mathrm{Oe}^{-1}\right)\cdot\mathrm{cm}^{-3}}{\mathrm{T}}=10^{3}\mu_{0}=4\pi\cdot10^{-4}$                                                                                   |
+| Volume susceptibility            | $\chi_{\mathrm{v}}$       | $\dfrac{\left(\mathrm{emu}\cdot\mathrm{Oe}^{-1}\right)\cdot\mathrm{cm}^{-3}}{\left(\mathrm{A}\cdot\mathrm{m}^{2}\right)\cdot\left(\mathrm{A}\cdot\mathrm{m}^{-1}\right)^{-1}\cdot\mathrm{m}^{-3}}=4\pi$                                                          |
+| Mass susceptibility              | $\chi_{\mathrm{m}}$       | $\dfrac{\left(\mathrm{emu}\cdot\mathrm{Oe}^{-1}\right)\cdot\mathrm{g}^{-1}}{\left(\mathrm{A}\cdot\mathrm{m}^{2}\right)\cdot\left(\mathrm{A}\cdot\mathrm{m}^{-1}\right)^{-1}\cdot\mathrm{kg}^{-1}}=4\pi\cdot10^{-3}$                                             |
+| Permeability                     | $\mu=\dfrac{B}{H}$        | $\dfrac{\mathrm{G}\cdot\mathrm{Oe}^{-1}}{\mathrm{T}\cdot\left(\mathrm{A}\cdot\mathrm{m}^{-1}\right)^{-1}}=\mu_{0}=4\pi\cdot10^{-7}$                                                                                                                             |
+| Relative permeability (SI)       | $\mu_{\mathrm{r}}$        | $\dfrac{\mu_{\mathrm{SI}}}{\mu_{0}}=\mu_{\mathrm{r}}=\mu_{\mathrm{cgs}}$                                                                                                                                                   |
+| Energy density                   | $W$                       | $\dfrac{\mathrm{erg}\cdot\mathrm{cm}^{-3}}{\mathrm{J}\cdot\mathrm{m}^{-3}}=0.1$                                                                                                                                            |
+| Demagnetizing factor             | $N$                       | $\dfrac{N_{\mathrm{cgs}}}{N_{\mathrm{SI}}}=4\pi$                                                                                                                                                                            |
+| Energy product                   | $(BH)$                    | $\dfrac{\mathrm{G}\cdot\mathrm{Oe}}{\mathrm{T}\cdot\left(\mathrm{A}\cdot\mathrm{m}^{-1}\right)}=\dfrac{\mathrm{G}\cdot\mathrm{Oe}}{\mathrm{J}\cdot\mathrm{m}^{-3}}=4\pi\cdot10^{1}=126$<br>$\dfrac{\mathrm{MG}\cdot\mathrm{Oe}}{\mathrm{kJ}\cdot\mathrm{m}^{-3}}=4\pi\cdot10^{-2}=0.126$ |
+
+Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tesla, m = meter, A = ampere, J = joule, kg = kilogram, g = gram, cm = centimeter, with $\mu_0=4\pi\times10^{-7}$.
+
+---
+
+### Below is an example of a Hysteresis loop plotted in Python from the MuMax3 computation, provided by one of my examples above:
+![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
+
+### Magnetic material visualization example ran in MuMax3:
+![Vector field after 2 minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/30d1d710-f5a2-48e2-9b01-9162b3aedf91) ![Vector field after a couple more minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/5eb4bf8a-cb1b-48c6-a422-6b3b72010f8f)
+
+### Magnetic geometry (300 nm x 100 nm x 3 nm) visualization in 3D using [MuMax View](https://mumax.ugent.be/mumax-view) in the browser:
+![ezgif-2-ce10ab426e](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/40d7ff7a-e8bb-4438-9cd8-eeff2aa36a89)
+
+### More examples:
+![Screenshot 2024-03-13 124721](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/4f6f514b-a03d-4e99-861a-53e36d6196f9)
+![Screenshot 2024-03-13 125101](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/a583f8b5-8fa5-4ee7-8e5c-7163c567cb28)
+
+---
+
+---
+
 | Related Animated Videos for Your Reference: |
 |-|
 | [Tunnel Effect](https://youtu.be/K64Tv2mK5h4?si=9P3WnPEtGvCPyy1s) |
@@ -56,18 +104,3 @@ ________________________________________________________________________________
 ![image](https://github.com/user-attachments/assets/590586b3-3b3d-45dc-8a68-e5fd83b2119e)
 
 ![mathpix 2025-02-03 12-35-21](https://github.com/user-attachments/assets/741b83b0-224e-4344-ad08-31c2ebae8951)
-
-________________________________________________________________________________________________________________________________________________________
-### Below is an example of a Hysteresis loop plotted in Python from the MuMax3 computation, provided by one of my examples above:
-![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
-
-### Magnetic material visualization example ran in MuMax3:
-![Vector field after 2 minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/30d1d710-f5a2-48e2-9b01-9162b3aedf91) ![Vector field after a couple more minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/5eb4bf8a-cb1b-48c6-a422-6b3b72010f8f)
-
-### Magnetic geometry (300 nm x 100 nm x 3 nm) visualization in 3D using [MuMax View](https://mumax.ugent.be/mumax-view) in the browser:
-![ezgif-2-ce10ab426e](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/40d7ff7a-e8bb-4438-9cd8-eeff2aa36a89)
-
-### More examples:
-![Screenshot 2024-03-13 124721](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/4f6f514b-a03d-4e99-861a-53e36d6196f9)
-![Screenshot 2024-03-13 125101](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/a583f8b5-8fa5-4ee7-8e5c-7163c567cb28)
-
