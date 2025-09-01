@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/GNU-General_Public_License_v3.0-green)](https://choosealicense.com/licenses/gpl-3.0/)
 
-Installation, scripting, & data generation demo of computational micro and nanomagnetism in MuMax3. Formed & written by Onri Jay Benally, an Indigenous American quantum hardware engineer.
+Installation, scripting, & data generation demo of computational micro and nanomagnetism in MuMax3. Formed & written by Onri Jay Benally.
 
 ---
 
