@@ -102,5 +102,3 @@ Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tes
 
 ![image](https://github.com/user-attachments/assets/9f594b41-d9a4-485e-a60b-5aed81b28257)
 ![image](https://github.com/user-attachments/assets/590586b3-3b3d-45dc-8a68-e5fd83b2119e)
-
-![mathpix 2025-02-03 12-35-21](https://github.com/user-attachments/assets/741b83b0-224e-4344-ad08-31c2ebae8951)
