@@ -20,8 +20,8 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 | ----------- | ----------------- |
 | Run MuMax3 on the Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JeroenMulkers/mumax3-tutorial/blob/master/mumax3.ipynb) |
 | Example of Hysteresis Loop Data Imported from a Local MuMax3 Installation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb) |
-| Hysteresis Loop for Dy and Tb Micromagnets, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Hysteresis_at_Low_Temp.ipynb) |
-| Prediction of Temperature Dependence for Dy and Tb, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Temperature_Dependence.ipynb) | 
+| Hysteresis Loop for Dy and Tb Micromagnets, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Hysteresis_at_Low_Temp.ipynb) |
+| Prediction of Temperature Dependence for Dy and Tb, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Temperature_Dependence.ipynb) | 
 
 | |
 |-----------|
