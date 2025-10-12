@@ -82,7 +82,7 @@ Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tes
 
 ---
 
-### Ferromagnetic Response for dysprosium and terbium at various low temperatures, from the MuMax3 Colab computation: 
+### Ferromagnetic response for dysprosium and terbium at various low temperatures, from the MuMax3 Colab computation: 
 <img width="1260" height="auto" alt="image" src="https://github.com/user-attachments/assets/97473d27-d25c-45a7-8e28-7d919bfa48aa" />
 
 ---
