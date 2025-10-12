@@ -4,7 +4,7 @@
 SetGridsize(128, 32, 30)
 SetCellsize(4e-9, 4e-9, 30e-9)
 
-Msat  = 800e3 // Saturation magnetisation (A/m).
+Msat  = 800e3 // Saturation magnetization (A/m).
 Aex   = 13e-12 // Exchange energy constant (J/m).
 
 // Gilbert damping can be set if needed. Example: alpha = 0.02
@@ -49,3 +49,4 @@ for B:=-Bmax; B<=Bmax; B+=Bstep{
     OutputFormat = OVF1_TEXT
     saveas(B_ext, "ovf1_text1")
 }
+
