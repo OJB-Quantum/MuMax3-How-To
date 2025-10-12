@@ -18,7 +18,7 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 
 ---
 
-### To use MuMax3 in Google Colab, simply enter this into the first code cell:
+### To use MuMax3 in Google Colab, simply change the runtime type to one of the GPU accelerators and enter this into the first code cell:
 ```
 #@title Check GPU + driver
 !nvidia-smi --query-gpu="name,driver_version,compute_cap" --format=csv
@@ -53,8 +53,10 @@ os.environ["PATH"] += ":/content/mumax3.10"
 
 | |
 |-----------|
-| [How to Install & Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
+| [How to Install & Run MuMax3 Locally by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
 | [Video Tutorial on How to Install MuMax3 Locally Step-by-Step](https://youtu.be/ziGTDgMdPJw) |
+| [The Official MuMax3 Tutorials](https://mumax.github.io/plus/tutorial.html) |
+| [Standard Problems from the Center for Theoretical and Computational Materials Science (CTCMS)](https://www.ctcms.nist.gov/~rdm/mumag.org.html) |
 | [Video Example of Onri's MuMax3 Hysteresis Plots in Python](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
 | [Video Animation of Magnetic Orders](https://youtu.be/X4hEEzAGyhM?si=5Lpkqnvpjs6UKjUY) |
