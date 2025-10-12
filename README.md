@@ -16,6 +16,32 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 
 ### Some examples computed in this repository were performed on an Nvidia (RTX 4070 Ti Super) GPU, connected externally (via a Thunderbolt 4 to PCIe x16 adapter) to a Microsoft Surface Pro 8, later upgraded to a Surface Pro 10. If you are curious about this kind of GPU-accelerated computing setup, then it is best to make sure your Windows machine is Thunderbolt 4 compatible or greater. Other examples were computed directly in the Google Colab environment using available GPU resources in Colab (T4 [free], L40, A100, etc.)
 
+---
+
+### To use MuMax3 in Google Colab, simply enter this into the first code cell:
+```
+#@title Check GPU + driver
+!nvidia-smi --query-gpu="name,driver_version,compute_cap" --format=csv
+```
+
+### Then, enter this into the second code cell:
+```
+#@title Install MuMax³ (MuMax³ 3.10 CUDA 10.1)
+# Download the mumax3 binary
+!wget -q https://mumax.ugent.be/mumax3-binaries/mumax3.10_linux_cuda10.1.tar.gz
+!tar -xvf mumax3.10_linux_cuda10.1.tar.gz
+!rm mumax3.10_linux_cuda10.1.tar.gz
+!rm -rf mumax3.10 && mv mumax3.10_linux_cuda10.1 mumax3.10
+
+# Update the PATH environment variable
+import os
+os.environ["PATH"] += ":/content/mumax3.10"
+```
+
+### Now you can write the MuMax3 code and Python visualization scripts in the remaining cells. See the Google Colab notebook examples for more information.
+
+---
+
 | Some Google Colab Notebooks |  |
 | ----------- | ----------------- |
 | Run MuMax3 on the Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JeroenMulkers/mumax3-tutorial/blob/master/mumax3.ipynb) |
@@ -23,10 +49,12 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 | Hysteresis Loop for Dy and Tb Micromagnets, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Hysteresis_at_Low_Temp.ipynb) |
 | Prediction of Temperature Dependence for Dy and Tb, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Temperature_Dependence.ipynb) | 
 
+---
+
 | |
 |-----------|
 | [How to Install & Run MuMax3 by Onri](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/Installing%20and%20Running%20MuMax3%20by%20Onri%20Jay%20Benally.pdf) |
-| [Video Tutorial on How to Install MuMax3 Step-by-Step](https://youtu.be/ziGTDgMdPJw) |
+| [Video Tutorial on How to Install MuMax3 Locally Step-by-Step](https://youtu.be/ziGTDgMdPJw) |
 | [Video Example of Onri's MuMax3 Hysteresis Plots in Python](https://youtu.be/YCUwEaX9SrI?si=I_m6b0n1USWKunFJ) |
 | [Example MuMax3 Script in TXT Format](https://github.com/OJB-Quantum/MuMax3-How-To/blob/main/MuMax3_Hysteresis_Loop_Example.txt) |
 | [Video Animation of Magnetic Orders](https://youtu.be/X4hEEzAGyhM?si=5Lpkqnvpjs6UKjUY) |
