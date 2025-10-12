@@ -70,8 +70,12 @@ Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tes
 
 ---
 
-### Below is an example of a Hysteresis loop plotted in Python from the MuMax3 computation, provided by one of my examples above:
+### Hysteresis loop, from the local MuMax3 computation data:
 ![Hysteresis Plot_Python_Blue](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/9df5d4aa-7bf2-439f-a7d6-d9862b5a283f)
+
+### Hysteresis loops for dysprosium at different low temperatures, from the MuMax3 Colab computation: 
+<img width="1575" height="auto" alt="image" src="https://github.com/user-attachments/assets/687a6f3e-c80e-408a-9590-2b76c92bb3de" />
+
 
 ### Magnetic material visualization example ran in MuMax3:
 ![Vector field after 2 minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/30d1d710-f5a2-48e2-9b01-9162b3aedf91) ![Vector field after a couple more minutes](https://github.com/OJB-Quantum/MuMax3-How-To/assets/88035770/5eb4bf8a-cb1b-48c6-a422-6b3b72010f8f)
