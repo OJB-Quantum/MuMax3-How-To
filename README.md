@@ -18,8 +18,10 @@ Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax
 
 | Some Google Colab Notebooks |  |
 | ----------- | ----------------- |
-| Run MuMax3 on the Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JeroenMulkers/mumax3-tutorial/blob/master/mumax3.ipynb)
-| Example of Data Imported From MuMax3 - Hysteresis Loop by Onri | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb)
+| Run MuMax3 on the Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JeroenMulkers/mumax3-tutorial/blob/master/mumax3.ipynb) |
+| Example of Hysteresis Loop Data Imported from a Local MuMax3 Installation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Hysteresis_Loop_Example_2_by_MuMax_Locally_Run.ipynb) |
+| Hysteresis Loop for Dy and Tb Micromagnets, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Hysteresis_at_Low_Temp.ipynb) |
+| Prediction of Temperature Dependence for Dy and Tb, Computed on the GPU Using MuMax3 Installed in Google Colab | [![Open In Colab](https://colab.research.google.com/github/OJB-Quantum/MuMax3-How-To/blob/main/Python%20Code_MuMax3%20Data%20Plots/Dy_and_Tb_Prediction_of_Temperature_Dependence.ipynb) | 
 
 | |
 |-----------|
@@ -75,8 +77,13 @@ Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tes
 
 ---
 
-### Hysteresis loops for dysprosium at different low temperatures, from the MuMax3 Colab computation: 
+### Hysteresis loops for dysprosium at various low temperatures, from the MuMax3 Colab computation: 
 <img width="1575" height="auto" alt="image" src="https://github.com/user-attachments/assets/687a6f3e-c80e-408a-9590-2b76c92bb3de" />
+
+---
+
+### Ferromagnetic Response for dysprosium and terbium at various low temperatures, from the MuMax3 Colab computation: 
+<img width="1260" height="auto" alt="image" src="https://github.com/user-attachments/assets/97473d27-d25c-45a7-8e28-7d919bfa48aa" />
 
 ---
 
