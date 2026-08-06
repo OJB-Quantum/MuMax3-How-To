@@ -79,10 +79,34 @@ Online OVF file type visualization: (https://mumax.ugent.be/mumax-view). While u
 
 ---
 
+### Magnetic Unit Comparison Table
+
+| Quantity                         | Symbol                    | CGS Unit                                 | SI Unit                                |
+|----------------------------------|---------------------------|------------------------------------------|----------------------------------------|
+| Field                            | $H$                       | $\mathrm{Oe}$                            | $\mathrm{A\cdot m^{-1}}$               |
+| Flux                             | $\Phi$                    | $\mathrm{Mx}$                            | $\mathrm{Wb}$                          |
+| Flux density                     | $B$                       | $\mathrm{G}$                             | $\mathrm{T}$                           |
+| Magnetic moment                  | $m$                       | $\mathrm{emu}$                           | $\mathrm{A\cdot m^{2}}$                |
+| Magnetization per unit volume    | $M$                       | $\mathrm{emu\cdot cm^{-3}}$              | $\mathrm{A\cdot m^{-1}}$               |
+| Volume saturation magnetization  | $M_{\mathrm{s}}$          | $\mathrm{emu\cdot cm^{-3}}$              | $\mathrm{A\cdot m^{-1}}$               |
+| Magnetization per unit mass      | $\sigma$                  | $\mathrm{emu\cdot g^{-1}}$               | $\mathrm{A\cdot m^{2}\cdot kg^{-1}}$   |
+| Mass saturation magnetization    | $\sigma_{\mathrm{s}}$     | $\mathrm{emu\cdot g^{-1}}$               | $\mathrm{A\cdot m^{2}\cdot kg^{-1}}$   |
+| Magnetic polarization            | $J$                       | $\mathrm{emu\cdot cm^{-3}}$              | $\mathrm{T}$                           |
+| Saturation magnetic polarization | $J_{\mathrm{s}}$          | $\mathrm{emu\cdot cm^{-3}}$              | $\mathrm{T}$                           |
+| Volume susceptibility            | $\chi_{\mathrm{v}}$       | $\mathrm{emu\cdot Oe^{-1}\cdot cm^{-3}}$ | dimensionless                          |
+| Mass susceptibility              | $\chi_{\mathrm{m}}$       | $\mathrm{cm^{3}\cdot g^{-1}}$            | $\mathrm{m^{3}\cdot kg^{-1}}$          |
+| Permeability                     | $\mu$                     | $\mathrm{G\cdot Oe^{-1}}$                | $\mathrm{T\cdot m\cdot A^{-1}}$        |
+| Relative permeability            | $\mu_{\mathrm{r}}$        | dimensionless                            | dimensionless                          |
+| Energy density                   | $W$                       | $\mathrm{erg\cdot cm^{-3}}$              | $\mathrm{J\cdot m^{-3}}$               |
+| Demagnetizing factor             | $N$                       | dimensionless                            | dimensionless                          |
+| Energy product                   | $(BH)$                    | $\mathrm{MG\cdot Oe}$                    | $\mathrm{kJ\cdot m^{-3}}$              |
+
+Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, T = tesla, m = meter, A = ampere, J = joule, kg = kilogram, g = gram, cm = centimeter, emu = electromagnetic unit.
+
 ### Magnetic Conversion Table
 
-| Quantity                         | Symbol                    | Conversion                                                                                                                                                                    |
-|----------------------------------|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Quantity                         | Symbol                    | Conversion                                                             |
+|----------------------------------|---------------------------|------------------------------------------------------------------------|
 | Field                            | $H$                       | $\dfrac{\mathrm{Oe}}{\mathrm{A}\cdot\mathrm{m}^{-1}}=\dfrac{10^{3}}{4\pi}=79.6$                                                                                               |
 | Flux                             | $\Phi$                    | $\dfrac{\mathrm{Mx}}{\mathrm{Wb}}=\dfrac{\mathrm{Mx}}{\mathrm{V}\cdot\mathrm{s}}=10^{-8}$                                                                                    |
 | Flux density                     | $B$                       | $\dfrac{\mathrm{G}}{\mathrm{T}}=\dfrac{\mathrm{G}}{\mathrm{Wb}\cdot\mathrm{m}^{-2}}=10^{-4}$                                                                                 |
