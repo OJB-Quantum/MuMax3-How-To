@@ -137,11 +137,6 @@ Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tes
 ### Hysteresis loops for dysprosium at various low temperatures, from the MuMax3 Colab computation: 
 <img width="1575" height="auto" alt="image" src="https://github.com/user-attachments/assets/687a6f3e-c80e-408a-9590-2b76c92bb3de" />
 
----
-
-### Ferromagnetic response for dysprosium and terbium at various low temperatures, from the MuMax3 Colab computation: 
-<img width="1260" height="auto" alt="image" src="https://github.com/user-attachments/assets/1926f3f6-bc75-4bde-a299-5d74ea6b40de" />
-
 
 ---
 
