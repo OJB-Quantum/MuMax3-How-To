@@ -42,6 +42,11 @@ os.environ["PATH"] += ":/content/mumax3.10"
 
 ---
 
+### Here are some Colab Notebook examples you can try yourself:
+<https://github.com/OJB-Quantum/MuMax3-How-To/tree/main/Python%20Code_MuMax3%20Data%20Plots>
+
+--
+
 | Some Google Colab Notebooks |  |
 | ----------- | ----------------- |
 | Run MuMax3 on the Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JeroenMulkers/mumax3-tutorial/blob/master/mumax3.ipynb) |
