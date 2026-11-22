@@ -10,9 +10,11 @@ Installation, scripting, & data generation demo of computational micro and nanom
 
 ---
 
-Main MuMax3 website: (https://mumax.github.io/index.html)
+Main MuMax3 website: <https://mumax.github.io/index.html>
 
-Uses code heavily-modified for clarity, inspired from: (https://github.com/mumax/3) & (https://mumax.github.io/examples.html)
+Uses code heavily-modified for clarity, inspired from: <https://github.com/mumax/3> & <https://mumax.github.io/examples.html>
+
+Main MuMaxPlus website: <https://mumax.github.io/plus>
 
 ### Some examples computed in this repository were performed on an Nvidia (RTX 4070 Ti Super) GPU, connected externally (via a Thunderbolt 4 to PCIe x16 adapter) to a Microsoft Surface Pro 8, later upgraded to a Surface Pro 10. If you are curious about this kind of GPU-accelerated computing setup, then it is best to make sure your Windows machine is Thunderbolt 4 compatible or greater. Other examples were computed directly in the Google Colab environment using available GPU resources in Colab (T4 [free], L40, A100, etc.)
 
