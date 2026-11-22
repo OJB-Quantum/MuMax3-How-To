@@ -184,6 +184,8 @@ Mx = maxwell, G = gauss, Oe = oersted, Wb = weber, V = volt, s = second, T = tes
 | [Scanning Electron Microscopy](https://youtu.be/uQ1gCIkCbIQ?si=2sQTR0ysf4g0Db6i) |
 | [Atomic Force Microscopy](https://youtu.be/8gCf1sEn0UU?si=qyQy7vogkqV6WotF) |
 
+<img width="3048" height="auto" alt="image" src="https://github.com/user-attachments/assets/245887ea-7d2e-41e9-b9ce-975cda758f48" />
+
 ![image](https://github.com/user-attachments/assets/9f594b41-d9a4-485e-a60b-5aed81b28257)
 ![image](https://github.com/user-attachments/assets/590586b3-3b3d-45dc-8a68-e5fd83b2119e)
 
